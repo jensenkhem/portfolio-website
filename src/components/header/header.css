@@ -1,0 +1,27 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+}
+
+.header__socials {
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.icon {
+    color: white;
+    transition: var(--transition);
+}
+
+.icon:hover {
+    color:grey;
+    /* transition: var(--transition); */
+}
