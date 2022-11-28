@@ -31,7 +31,7 @@ const Header = () => {
         <h4 className="greyh4" style={style3}>Software Developer</h4>
         <div style={{display: "flex", justifyContent: "center"}}>
           <HiOutlineLocationMarker style={locationIcon}/>
-          <h6 className="greyh4" style={style3}>{'\u00A0'}Edmonton, AB, Canada</h6>
+          <h6 className="greyh4" style={style3}>{'\u00A0'}Edmonton, AB, CA</h6>
         </div>
         <HeaderSocials />
       </div>
