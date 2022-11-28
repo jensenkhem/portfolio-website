@@ -1,9 +1,12 @@
 import React from 'react';
 import HeaderSocials from './HeaderSocials';
 import './header.css';
+import {HiOutlineLocationMarker} from 'react-icons/hi'
 const Header = () => {
   const style = { "font-family": "Poppins", "color": "lightgrey"};
   const style2 = { "font-family": "Poppins", "color": "grey"};
+  const style3 = { "font-family": "Poppins"};
+  const locationIcon = { "color": "white", "size": 25 }
   return (
     <>
     <head>
@@ -25,10 +28,13 @@ const Header = () => {
     <header>
       <div className="introduction">
         <h1>Jensen Khemchandani</h1>
-        <h4 className="text-light">Software Developer</h4>
+        <h4 className="greyh4" style={style3}>Software Developer</h4>
+        <div style={{display: "flex", justifyContent: "center"}}>
+          <HiOutlineLocationMarker style={locationIcon}/>
+          <h6 className="greyh4" style={style3}>{'\u00A0'}Edmonton, AB, Canada</h6>
+        </div>
         <HeaderSocials />
       </div>
-      {/* <hr /> */}
     </header>
     </>
   );
