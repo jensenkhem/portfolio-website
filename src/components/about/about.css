@@ -1,4 +1,27 @@
-body {
-    background: black;
-    color: white;
+.about__container {
+    text-align: center;
+    height: 100%;
+    padding-top: 5vh;
+    overflow:hidden;
 }
+
+.about-wrapper {
+    height: 100%;
+    padding-top: 50;
+}
+
+.info {
+    float:left; display:inline; width: 49%;
+    margin-top: 5vh;
+    color: white;
+    text-align: left;
+}
+
+.me {
+    float:right; display:inline; width: 49%;
+    margin-top: 5vh;
+    max-width: 350px; 
+    max-height: 700px;
+    display: block;
+}
+

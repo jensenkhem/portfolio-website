@@ -40,10 +40,9 @@ html {
 /* Body elements */
 body {
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(to right, #100441, #150740);    color: var(--color-white);
+    background: linear-gradient(to right, #100441, #1b0361);    color: var(--color-white);
     color: var(--color-white);
     line-height: 1.7;
-    /* background-image: url(../src/assets/bg-texture.png);  */
 }
 
 .container {
@@ -52,11 +51,16 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-   font-weight: 500;
+   font-weight: 600;
+   color: white !important;
 }
 
 h1 {
-    font: size 2.5rem;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 section {
@@ -86,10 +90,7 @@ a:hover {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
-    /* padding: 0.75rem 1.2rem; */
-    /* border-radius: 0.4rem; */
     cursor: pointer;
-    /* border: 1px solid var(--color-primary); */
     transition: var(--transition);
 }
 
@@ -102,12 +103,6 @@ a:hover {
 .btn-primary {
     background: var(--color-primary);
     color: var(--color-bg);
-}
-
-img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
 }
 
 /* Quereies */

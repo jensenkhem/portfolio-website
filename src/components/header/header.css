@@ -1,12 +1,37 @@
 header {
-    height: 100vh;
-    padding-top: 7rem;
+    padding-top: 2rem;
     overflow: hidden;
 }
 
+.navbar-nav.navbar-center {
+    position: absolute;
+    padding-top: 5vh;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.nav-link {
+    transition: var(--transition);
+    font-size: 15px;
+} 
+
+.nav-link:hover {
+    color: white !important
+} 
+
 .header__container {
     text-align: center;
-    height: 100%;
+}
+
+
+hr {
+    color: white;
+    background: white; 
+    width: 100%; 
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3px;
 }
 
 .header__socials {
@@ -23,5 +48,11 @@ header {
 
 .icon:hover {
     color:grey;
-    /* transition: var(--transition); */
 }
+
+.introduction {
+    /* margin-top: 5px; */
+    text-align: center;
+}
+
+
