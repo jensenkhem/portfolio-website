@@ -7,16 +7,28 @@ const Projects = () => {
       <h2>Projects</h2>
       <hr />
       <div className="card-grid">
-        <div class="card card-shadow">
-          <div class="card-header">
-            <img class="devinabox" src={devinabox} alt="dev in a box card"></img>
+        <div className="card card-shadow">
+          <div className="card-header">
+            <img className="devinabox" src={devinabox} alt="dev in a box card"></img>
           </div>
-          <div class="card-body">
+          <div className="card-body">
             Lorem Ipsum ...
           </div>
-          <div class="card-footer">
-            <button class="btn">Details</button>
-            <button class="btn btn-outline">Contact seller</button>
+          <div className="card-footer">
+            <button className="btn">Details</button>
+            <button className="btn btn-outline">Contact seller</button>
+          </div>
+        </div>
+        <div className="card card-shadow">
+          <div className="card-header">
+            <img className="devinabox" src={devinabox} alt="something else card"></img>
+          </div>
+          <div className="card-body">
+            Lorem Ipsum blah blah blah
+          </div>
+          <div className="card-footer">
+            <button className="btn">Details</button>
+            <button className="btn btn-outline">Contact seller</button>
           </div>
         </div>
       </div>
