@@ -23,10 +23,18 @@ nav {
 
 .nav-link {
     transition: var(--transition);
-    font-size: 15px;
+    font-size: 17px;
 } 
 
+.navbar-brand {
+    transition: var(--transition);
+}
+
 .nav-link:hover {
+    color: white !important
+} 
+
+.navbar-brand:hover {
     color: white !important
 } 
 
