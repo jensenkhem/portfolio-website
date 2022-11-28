@@ -23,5 +23,6 @@
     max-width: 350px; 
     max-height: 700px;
     display: block;
+    border-radius: 1rem;
 }
 
