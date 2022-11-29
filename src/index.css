@@ -40,7 +40,7 @@ html {
 /* Body elements */
 body {
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(to right, #100441, #1b0361);    color: var(--color-white);
+    background: linear-gradient(to right, #100441, #200476);    color: var(--color-white);
     color: var(--color-white);
     line-height: 1.7;
 }
