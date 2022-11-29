@@ -1,0 +1,35 @@
+.contact__container {
+    text-align: center;
+    height: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    overflow:hidden;
+}
+
+.contact__container .emailtext {
+    text-align: left;
+    font-family: Poppins;
+    color: white;
+    padding-top: 1rem;
+    font-style: italic;
+}
+
+.contacttext {
+    color: white;
+    text-align: left;
+    padding-top: 1rem;
+    font-family: Poppins;
+}
+
+.emailtext .emailtext2 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+
+.emailtext .icon {
+    vertical-align: bottom;
+}
+.icon:hover {
+    color:white;
+}

@@ -14,35 +14,88 @@
 }
 
 .card {
-    background: white !important;
-    padding: 1rem;
-    border: 1px solid #777;
+    background: rgb(5, 3, 43) !important;
+    /* border: 1px solid #777; */
     border-radius: 1rem !important;
+    overflow: hidden;
+    text-align: left;
 }
 
 .card-header {
     font-size: 1.5rem;
+    padding: 1rem;
+    padding-bottom: 0;
     margin-bottom: .5rem;
-    background-color: rgb(3, 3, 20) !important;
+    /* background-color: rgb(3, 3, 20) !important; */
 }
 
-.project-img {
+.card.card-shadow {
+    border: none;
+    box-shadow: 0 10px 10px 0 rgba(2, 2, 36, 0.2);
+}
+
+.card-header.card-image {
+    overflow: hidden;
+}
+
+.card-header.card-image > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center;
+    max-height: 200px;
+    border-radius: 1rem;
+    transition: 200ms transform ease-in-out;
+}
+
+.card:hover > .card-header.card-image > img {
+    transform: scale(1.05);
+}
+/* .project-img {
     max-width: 200px; 
     max-height: 200px;
-}
+} */
 
 .card-footer {
     margin-top: 1rem;
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
 }
 
 .card-body {
     margin-bottom: .9rem;
+    color: white;
+    font-family: Poppins;
+}
+
+.card-body .techlist {
+    color: rgb(223, 220, 226);
+    font-style: italic;
 }
 
 .btn {
-    background: black;
-    border: none;
+    background: rgb(53, 61, 177);
+    border: 10px;
     color: white !important;
     padding: .5em .75em; 
     margin-left: 12px;
+    font-family: Poppins;
+}
+
+.btn a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn a:hover{
+    text-decoration: none;
+    color: inherit
+}
+
+.btn:hover {
+    background-color: grey !important;
 }
