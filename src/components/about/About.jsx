@@ -4,6 +4,7 @@ import jensen from '../../assets/jensen.jpg'
 import resume from '../../assets/resume.pdf'
 const About = () => {
   const style = {"font-family": "Poppins"}
+  const style2 = {"margin-left": "0px"}
   return (
     <>
     <div className="container about__container" id="about">
@@ -17,7 +18,7 @@ const About = () => {
             individuals and improve the lives of those around me.
             <br></br><br></br>
             <p>For more detailed information about my relevent skills and experience,</p>
-            <button className="btn resumebutton"><a href={resume} target="_blank" rel="noreferrer">Download my resume</a></button>
+            <button className="btn resumebutton" style={style2}><a href={resume} target="_blank" rel="noreferrer">Download my resume</a></button>
         </div>
         <img className='me' alt="me!" src={jensen}></img>
       </div>

@@ -4,9 +4,9 @@ import devinabox from '../../assets/devinabox.jpg'
 import portfolio from '../../assets/portfolio.png'
 import maplefinder from '../../assets/maplefinder.png'
 import sudoku from '../../assets/sudoku.png'
+import gearbook from '../../assets/gearbook.png'
 import comingsoon from '../../assets/comingsoon.png'
 const Projects = () => {
-  const smallFont= {"font-size": "13px"}
   return (
     <div className="container projects__container" id="projects">
       <h2>Projects</h2>
@@ -16,7 +16,7 @@ const Projects = () => {
           <div className="card-header card-image">
             <img className="project-img" src={devinabox} alt="dev in a box card"></img>
           </div>
-          <div className="card-body" style={smallFont}>
+          <div className="card-body">
             <div className="card-title"><h5>Cloud Computing Dashboard</h5></div>
             <hr></hr>
             An interactive dashboard and user management platform for cloud computing resources.
@@ -81,6 +81,24 @@ const Projects = () => {
           </div>
           <div className="card-footer">
             <button className="btn"><a href="https://github.com/jensenkhem/maple_party_finder" target="_blank" rel="noreferrer">Learn more</a></button>
+          </div>
+        </div>
+        <div className="card card-shadow">
+          <div className="card-header card-image">
+            <img className="project-img" src={gearbook} alt="something else card"></img>
+          </div>
+          <div className="card-body">
+            <div className="card-title"><h5>Community Library Mobile App</h5></div>
+            <hr></hr>
+            A mobile app which provides a social community for showcasing your personal book collection 
+            and sharing books with others in your community.
+            <hr></hr>
+            <div className="techlist">
+              Java, Kotlin, Android
+            </div>
+          </div>
+          <div className="card-footer">
+            <button className="btn"><a href="https://github.com/CMPUT301F20T30/3dayslate" target="_blank" rel="noreferrer">Learn more</a></button>
           </div>
         </div>
         <div className="card card-shadow">
