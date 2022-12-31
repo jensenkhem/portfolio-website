@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import jensen from '../../assets/jensen.jpg'
-import resume from '../../assets/resume.pdf'
+import resume from '../../assets/jensen-jan-2023-resume.pdf'
 const About = () => {
   const style = {"font-family": "Poppins"}
   const style2 = {"margin-left": "0px"}
