@@ -28,59 +28,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="card-footer">
-          <button className="btn"><a href="#" target="_blank" rel="noreferrer">Learn more</a></button>
-          </div>
-        </div>
-        <div className="card card-shadow">
-          <div className="card-header card-image">
-            <img className="project-img" src={portfolio} alt="something else card"></img>
-          </div>
-          <div className="card-body">
-            <div className="card-title"><h5>Personal Portfolio website</h5></div>
-            <hr></hr>
-            A personal website containing information about myself and my developer portfolio.
-            <hr></hr>
-            <div className="techlist">
-              ReactJS, HTML, CSS
-            </div>
-          </div>
-          <div className="card-footer">
-            <button className="btn"><a href="https://github.com/jensenkhem/portfolio-website" target="_blank" rel="noreferrer">Learn more</a></button>
-          </div>
-        </div>
-        <div className="card card-shadow">
-          <div className="card-header card-image">
-            <img className="project-img" src={maplefinder} alt="something else card"></img>
-          </div>
-          <div className="card-body">
-            <div className="card-title"><h5>Party Finder</h5></div>
-            <hr></hr>
-            A full stack web application where players of the popular online game: 'Maplestory' can organize and manage groups of characters, and connect with other players.
-            <hr></hr>
-            <div className="techlist">
-              Ruby on Rails, SQLite, HTML, CSS
-            </div>
-          </div>
-          <div className="card-footer">
-            <button className="btn"><a href="https://github.com/jensenkhem/maple_party_finder" target="_blank" rel="noreferrer">Learn more</a></button>
-          </div>
-        </div>
-        <div className="card card-shadow">
-          <div className="card-header card-image">
-            <img className="project-img" src={sudoku} alt="something else card"></img>
-          </div>
-          <div className="card-body">
-            <div className="card-title"><h5>Intelligent Sudoku Solver</h5></div>
-            <hr></hr>
-            An intelligent sudoku solver which uses the <a href="https://en.wikipedia.org/wiki/AC-3_algorithm">AC3 (Arc Consistency)</a> constraint-satisfaction algorithm
-            along with recursive backtracking, to solve very difficult sudoku puzzles in a short amount of time.
-            <hr></hr>
-            <div className="techlist">
-              Python
-            </div>
-          </div>
-          <div className="card-footer">
-            <button className="btn"><a href="https://github.com/jensenkhem/maple_party_finder" target="_blank" rel="noreferrer">Learn more</a></button>
+          <button className="btn"><a href="https://www.youtube.com/watch?v=FdRxbz83wTU" target="_blank" rel="noreferrer">Live Demo</a></button>
           </div>
         </div>
         <div className="card card-shadow">
@@ -98,9 +46,61 @@ const Projects = () => {
             </div>
           </div>
           <div className="card-footer">
-            <button className="btn"><a href="https://github.com/CMPUT301F20T30/3dayslate" target="_blank" rel="noreferrer">Learn more</a></button>
+            <button className="btn"><a href="https://github.com/CMPUT301F20T30/3dayslate" target="_blank" rel="noreferrer">Github</a></button>
           </div>
         </div>
+        <div className="card card-shadow">
+          <div className="card-header card-image">
+            <img className="project-img" src={sudoku} alt="something else card"></img>
+          </div>
+          <div className="card-body">
+            <div className="card-title"><h5>Intelligent Sudoku Solver</h5></div>
+            <hr></hr>
+            An intelligent sudoku solver which uses the <a href="https://en.wikipedia.org/wiki/AC-3_algorithm">AC3 (Arc Consistency)</a> constraint-satisfaction algorithm
+            and recursive backtracking to solve very difficult sudoku puzzles in a short amount of time.
+            <hr></hr>
+            <div className="techlist">
+              Python
+            </div>
+          </div>
+          <div className="card-footer">
+            <button className="btn"><a href="https://github.com/jensenkhem/sudoku-solver" target="_blank" rel="noreferrer">Github</a></button>
+          </div>
+        </div>
+        <div className="card card-shadow">
+          <div className="card-header card-image">
+            <img className="project-img" src={maplefinder} alt="something else card"></img>
+          </div>
+          <div className="card-body">
+            <div className="card-title"><h5>Party Finder</h5></div>
+            <hr></hr>
+            A full stack web application where players of the popular online game: 'Maplestory' can organize and manage groups of characters, and connect with other players.
+            <hr></hr>
+            <div className="techlist">
+              Ruby on Rails, SQLite, HTML, CSS
+            </div>
+          </div>
+          <div className="card-footer">
+            <button className="btn"><a href="https://github.com/jensenkhem/maple_party_finder" target="_blank" rel="noreferrer">Github</a></button>
+          </div>
+        </div>
+        <div className="card card-shadow">
+          <div className="card-header card-image">
+            <img className="project-img" src={portfolio} alt="something else card"></img>
+          </div>
+          <div className="card-body">
+            <div className="card-title"><h5>Personal Portfolio website</h5></div>
+            <hr></hr>
+            A personal website containing information about myself and my developer portfolio.
+            <hr></hr>
+            <div className="techlist">
+              ReactJS, HTML, CSS
+            </div>
+          </div>
+          <div className="card-footer">
+            <button className="btn"><a href="https://github.com/jensenkhem/portfolio-website" target="_blank" rel="noreferrer">Github</a></button>
+          </div>
+        </div> 
         <div className="card card-shadow">
           <div className="card-header card-image">
             <img className="project-img" src={comingsoon} alt="something else card"></img>
