@@ -12,7 +12,7 @@ const About = () => {
       <div className='about-wrapper'>
         <div className='info' style={style}>
             <h5>Education</h5>
-            4th year Computing Science student at the University of Alberta and aspiring Software Developer. 
+            4th year Computing Science student at the University of Alberta.
             <br></br><br></br>
             <h5>Personal hobbies</h5>
             In my spare time I love to attend
