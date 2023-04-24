@@ -8,7 +8,7 @@ const HeaderSocials = () => {
                 <BsLinkedin size={25}/>
             </div>
         </a>
-        <a href="https://github.com" target="_blank" rel="noreferrer">
+        <a href="https://github.com/jensenkhem" target="_blank" rel="noreferrer">
             <div className='icon'>
                 <BsGithub size={25}/>
             </div>
